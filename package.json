@@ -1,0 +1,31 @@
+{
+  "name": "webrtc-streaming-signalserver",
+  "version": "1.0.0",
+  "description": "signal server for video streaming",
+  "keywords": [
+    "webrtc",
+    "signalserver",
+    "video",
+    "streaming",
+    "socket.io"
+  ],
+  "license": "MIT",
+  "author": "Markus Möller",
+  "type": "module",
+  "main": " server.ts",
+  "scripts": {
+    "start": "nodemon --exec tsx src/server.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}

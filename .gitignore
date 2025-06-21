@@ -1,0 +1,12 @@
+# Package files
+node_modules
+
+# Build output
+dist
+
+# environment variables
+.env
+
+# IDE configurations
+.vscode
+.idea
