@@ -15,17 +15,22 @@
   "main": " server.ts",
   "scripts": {
     "start": "nodemon --exec tsx src/server.ts",
-    "test": "jest"
+    "build": "tsc",
+    "test": "vitest"
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
     "@types/node": "^24.0.3",
     "nodemon": "^3.1.10",
+    "socket.io-client": "^4.8.1",
     "tsx": "^4.20.3",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
+    "helmet": "^8.1.0",
     "socket.io": "^4.8.1"
   }
 }
